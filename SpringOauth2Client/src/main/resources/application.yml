@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: SpringOauth2Client
+
+  security:
+    user:
+      name: admin
+      password: 1234
+      roles: ADMIN
+
+
+    oauth2:
+      client:
+        registration:
+          #Github Login
+          github:
+            client-id: Ov23li5Tf6gsdRK87XmG
+            client-secret: 1506612au8d3j5nf5g5ff40f00aed5888a
+          #Google Login
+          google:
+            client-id: 690255717518-3uu8pid3j5nf5g5ff40fuc96u1c7ks0sjk6.apps.googleusercontent.com
+            client-secret: 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8Ovy7
+
